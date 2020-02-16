@@ -12,12 +12,12 @@
 			"value": "DEFAULT_SECRET"
 		},
 		"RCLONE_CONFIG": {
-			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
-			"required": false
+			"description": "[danny]\n type = drive\n scope = drive\ntoken = {"access_token":"ya29.Il-9B0jpkv29T4UbFu2MdDw6-e0ONLIa-Bx-q65IA66zFEDiFNezbZNlaliuSPD_hO1MC-M9iqz-W-CoevTTkhkx9OX7tZLIxbf3meJ4raiGSvXxJMeHUkI8fi7O9u01nA","token_type":"Bearer","refresh_token":"1//0ebrWlDcVf0YICgYIARAAGA4SNwF-L9IrNVtxc3ugM01cljgShjGvSUUYO_e64J3oHw0eyZDyBrQXUH4OgiCtQ-0YTu2sEUC6TdU","expiry":"2020-02-15T13:45:28.871314641+07:00"}",
+			"required": true
 		},
 		"RCLONE_DESTINATION": {
-			"description": "Path to store your file in your Rclone drive. Must start with a forward slash.",
-			"required": false
+			"description": "\",
+			"required": true
 		}
 	},
 	"buildpacks": [
