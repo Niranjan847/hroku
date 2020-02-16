@@ -12,11 +12,11 @@
 			"value": "DEFAULT_SECRET"
 		},
 		"RCLONE_CONFIG": {
-			"description": "",
+			"description": ""
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
-			"description": "\",
+			"description": "\"
 			"required": false
 		}
 	},
